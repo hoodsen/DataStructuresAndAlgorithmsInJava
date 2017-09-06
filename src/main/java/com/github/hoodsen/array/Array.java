@@ -1,5 +1,9 @@
 package com.github.hoodsen.array;
 
-public class Array {
-
+public interface Array<T> {
+	int insert(T element);
+	
+	void remove(T element);
+	
+	int find(T element);
 }
